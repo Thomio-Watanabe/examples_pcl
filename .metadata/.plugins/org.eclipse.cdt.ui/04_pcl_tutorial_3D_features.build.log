@@ -1,0 +1,16 @@
+16:33:35 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/io/pcd_io.h:43:0,
+                 from ../3d_features.hpp:4,
+                 from ../3d_features.cpp:8:
+/usr/include/pcl-1.7/pcl/point_cloud.h:46:27: fatal error: Eigen/StdVector: No such file or directory
+ #include <Eigen/StdVector>
+                           ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+
+16:33:35 Build Finished (took 113ms)
+

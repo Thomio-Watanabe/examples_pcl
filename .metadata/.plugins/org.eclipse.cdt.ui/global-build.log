@@ -1,0 +1,126 @@
+14:50:55 **** Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.cpp:7:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+14:54:06 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.cpp:7:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+14:55:28 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.cpp:7:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+14:57:11 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+Finished building: ../3d_features.cpp
+ 
+Building target: 04_pcl_tutorial_3D_features
+Invoking: GCC C++ Linker
+g++ -L. -L/usr/lib/ -L/usr/local/lib/ -o "04_pcl_tutorial_3D_features"  ./3d_features.o   -lpcl_apps -lpcl_common -lpcl_surface
+Finished building target: 04_pcl_tutorial_3D_features
+ 
+14:57:15 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+Finished building: ../3d_features.cpp
+ 
+Building target: 04_pcl_tutorial_3D_features
+Invoking: GCC C++ Linker
+g++ -L. -L/usr/lib/ -L/usr/local/lib/ -o "04_pcl_tutorial_3D_features"  ./3d_features.o   -lpcl_apps -lpcl_common -lpcl_surface
+Finished building target: 04_pcl_tutorial_3D_features
+ 
+14:58:00 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+make: Nothing to be done for `all'.
+15:33:40 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.cpp:7:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+10:27:28 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.cpp:8:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+11:44:15 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.hpp:8,
+                 from ../3d_features.cpp:8:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+11:44:40 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/point_types.h:311:0,
+                 from ../3d_features.hpp:8,
+                 from ../3d_features.cpp:8:
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp:46:22: fatal error: Eigen/Core: No such file or directory
+ #include <Eigen/Core>
+                      ^
+compilation terminated.
+make: *** [3d_features.o] Error 1
+16:33:35 **** Incremental Build of configuration Debug for project 04_pcl_tutorial_3D_features ****
+make all 
+Building file: ../3d_features.cpp
+Invoking: GCC C++ Compiler
+g++ -I. -I/usr/include/pcl-1.7/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"3d_features.d" -MT"3d_features.d" -o "3d_features.o" "../3d_features.cpp"
+In file included from /usr/include/pcl-1.7/pcl/io/pcd_io.h:43:0,
+                 from ../3d_features.hpp:4,
+                 from ../3d_features.cpp:8:
+/usr/include/pcl-1.7/pcl/point_cloud.h:46:27: fatal error: Eigen/StdVector: No such file or directory
+ #include <Eigen/StdVector>
+                           ^
+compilation terminated.
+make: *** [3d_features.o] Error 1

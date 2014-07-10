@@ -1,0 +1,28 @@
+/*
+ * 3d_features.cpp
+ *
+ *  Created on: Jul 7, 2014
+ *      Author: thomio
+ */
+#include <pcl/point_types.h>
+#include <pcl/features/normal_3d.h>
+#include <iostream>
+
+
+int main(void){
+
+	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
+
+
+	// Read a point cloud
+
+
+
+
+
+	return 0;
+}
+
+
+
+

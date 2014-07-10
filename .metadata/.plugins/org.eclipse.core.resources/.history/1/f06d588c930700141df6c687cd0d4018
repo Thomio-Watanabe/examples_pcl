@@ -1,0 +1,24 @@
+// #ifndef 3D_FEATURES_HPP_
+// #define 3D_FEATURES_HPP_
+
+#include <pcl/io/pcd_io.h>		// pcl::io::loadPCDFile
+#include <pcl/io/ply_io.h>		// pcl::io::loadPLYFile
+#include <pcl/console/parse.h>
+#include <pcl/point_types.h>
+#include <pcl/features/normal_3d.h>
+#include <iostream>
+#include <cstdlib>  //exit, EXIT_FAILURE
+
+//using namespace std;
+
+class InputCloud:public pcl::PointCloud  {
+	private:
+		int showHelp(char* program_name);
+		pcl::PointCloud<pcl::PointXYZ>::Ptr source_cloud;
+	public:
+		InputCloud();
+		int checkInput(int,char**);
+		int loadDataset(void);
+};
+
+// #endif 3D_FEATURES_HPP_

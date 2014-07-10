@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;04_pcl_tutorial_3D_features/3d_features&apos; to &apos;3d_features.hpp&apos;" description="Rename resource &apos;3d_features&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="3d_features" name="3d_features.hpp" stamp="1404912587030" updateReferences="true"/>
+</session>
