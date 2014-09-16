@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/3d_features.hpp
+/home/thomio/codes/pcl/03_3D_features/3d_features.hpp
 pcl/io/pcd_io.h
 -
 pcl/io/ply_io.h
@@ -24,9 +24,9 @@ iostream
 cstdlib
 -
 
-/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/check_input.cpp
+/home/thomio/codes/pcl/03_3D_features/check_input.cpp
 3d_features.hpp
-/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/3d_features.hpp
+/home/thomio/codes/pcl/03_3D_features/3d_features.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

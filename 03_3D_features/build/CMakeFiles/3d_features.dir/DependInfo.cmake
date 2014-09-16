@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/3d_features.cpp" "/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build/CMakeFiles/3d_features.dir/3d_features.cpp.o"
-  "/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/check_input.cpp" "/home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build/CMakeFiles/3d_features.dir/check_input.cpp.o"
+  "/home/thomio/codes/pcl/03_3D_features/3d_features.cpp" "/home/thomio/codes/pcl/03_3D_features/bluid/CMakeFiles/3d_features.dir/3d_features.cpp.o"
+  "/home/thomio/codes/pcl/03_3D_features/check_input.cpp" "/home/thomio/codes/pcl/03_3D_features/bluid/CMakeFiles/3d_features.dir/check_input.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

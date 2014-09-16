@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomio/codes/pcl/tutorial_01
+CMAKE_SOURCE_DIR = /home/thomio/codes/pcl/01_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomio/codes/pcl/tutorial_01/build
+CMAKE_BINARY_DIR = /home/thomio/codes/pcl/01_tutorial/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/pcd_write_test.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/thomio/codes/pcl/tutorial_01/build
 CMakeFiles/pcd_write_test.dir/all:
 	$(MAKE) -f CMakeFiles/pcd_write_test.dir/build.make CMakeFiles/pcd_write_test.dir/depend
 	$(MAKE) -f CMakeFiles/pcd_write_test.dir/build.make CMakeFiles/pcd_write_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/tutorial_01/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/01_tutorial/build/CMakeFiles  1
 	@echo "Built target pcd_write_test"
 .PHONY : CMakeFiles/pcd_write_test.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/pcd_write_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pcd_write_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomio/codes/pcl/tutorial_01/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomio/codes/pcl/01_tutorial/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pcd_write_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomio/codes/pcl/tutorial_01/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomio/codes/pcl/01_tutorial/build/CMakeFiles 0
 .PHONY : CMakeFiles/pcd_write_test.dir/rule
 
 # Convenience name for target.

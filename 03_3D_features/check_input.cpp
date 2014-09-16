@@ -87,7 +87,6 @@ int InputCloud::loadDataset(char** argv)
 //=============================================================================================================
 int InputCloud::calc3dFeatures(void)
 {
-
 	// pass the input dataset to a normal estimation object
 	ne.setInputCloud(source_cloud);
 
@@ -115,10 +114,13 @@ int InputCloud::visualizeCloud(void){
 
 	// Define R,G,B colors for the point cloud
 	pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> source_cloud_color_handler(source_cloud,255,255,255);
-	// We add the point cloud to the viewer and pass the color handler
-	viewer.addPointCloud(source_cloud,source_cloud_color_handler,"original_cloud");
 
 	viewer.setBackgroundColor(0.05,0.05,0.05,0); // Set background to a dark grey
+
+	// We add the point cloud to the viewer and pass the color handler
+	viewer.addPointCloudNormals<pcl::PointXYZ,pcl::Normal>(source_cloud,cloud_normals);
+	viewer.addPointCloud(source_cloud,source_cloud_color_handler,"original_cloud");
+	
 
 	while(!viewer.wasStopped()){   // Display the visualizer until the 'q' key is pressed
 		viewer.spinOnce();

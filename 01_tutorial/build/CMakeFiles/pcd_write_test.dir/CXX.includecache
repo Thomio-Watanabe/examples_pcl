@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thomio/codes/pcl/tutorial_01/pcd_write.cpp
+/home/thomio/codes/pcl/01_tutorial/pcd_write.cpp
 iostream
 -
 pcl/io/pcd_io.h
@@ -534,35 +534,21 @@ Eigen/src/Core/util/MKL_support.h
 iostream
 -
 
-/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h
-
-/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h
-
-/usr/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h
-
-/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h
-
-/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h
-
-/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h
-
-/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h
-
 /usr/include/eigen3/Eigen/src/Core/Array.h
 
 /usr/include/eigen3/Eigen/src/Core/ArrayBase.h
 ../plugins/CommonCwiseUnaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
 ../plugins/MatrixCwiseUnaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 ../plugins/ArrayCwiseUnaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
 ../plugins/CommonCwiseBinaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
 ../plugins/MatrixCwiseBinaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 ../plugins/ArrayCwiseBinaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
 
 /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h
 
@@ -590,7 +576,7 @@ iostream
 
 /usr/include/eigen3/Eigen/src/Core/DenseBase.h
 ../plugins/BlockMethods.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h
 
 /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
 
@@ -632,13 +618,13 @@ iostream
 
 /usr/include/eigen3/Eigen/src/Core/MatrixBase.h
 ../plugins/CommonCwiseUnaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
 ../plugins/CommonCwiseBinaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
 ../plugins/MatrixCwiseUnaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 ../plugins/MatrixCwiseBinaryOps.h
-/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 
 /usr/include/eigen3/Eigen/src/Core/NestByValue.h
 
@@ -1021,6 +1007,20 @@ Eigen/src/StlSupport/details.h
 /usr/include/eigen3/Eigen/src/misc/Kernel.h
 
 /usr/include/eigen3/Eigen/src/misc/Solve.h
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
 /usr/include/pcl-1.7/pcl/PCLHeader.h
 string

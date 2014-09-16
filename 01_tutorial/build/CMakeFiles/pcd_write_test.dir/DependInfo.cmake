@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thomio/codes/pcl/tutorial_01/pcd_write.cpp" "/home/thomio/codes/pcl/tutorial_01/build/CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o"
+  "/home/thomio/codes/pcl/01_tutorial/pcd_write.cpp" "/home/thomio/codes/pcl/01_tutorial/build/CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

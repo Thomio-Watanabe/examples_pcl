@@ -1,5 +1,4 @@
-
-#include <iostream> 
+#include <iostream>
 #include <boost/thread/thread.hpp>
 #include <pcl/range_image/range_image.h>
 #include <pcl/io/pcd_io.h>
@@ -24,7 +23,7 @@ void printUsage(const char * progName)
 				<< "Options:\n"
 				<< "------------------------------------------\n"
 				<< "-r <float>	\t	angular resolution in degrees (default "<<angular_resolution<<")\n"
-				<< "-c <int>	\t 	coordinate frame (default "<< (int)coordinate_frame<<")\n"
+				<< "-c <int>	\t 	coordinate frame (default "<< (int)coordinate_frame << ")\n"
 				<< "-m			\t	treat all unseen points to max range\n"
 				<< "-s <float> 	\t	support size for the interest points (diameter of the used sphere - default "<<support_size<<")\n"
 				<< "-o <0/1>	\t	switch rotation invariant version of the feature on/off"
@@ -47,34 +46,40 @@ void setViewerPose (pcl::visualization::PCLVisualizer &viewer, const Eigen::Affi
 // --------------
 // -----Main-----
 // --------------
-int 
-main (int argc, char** argv)
+
+int main (int argc, char** argv)
 {
   // --------------------------------------
   // -----Parse Command Line Arguments-----
   // --------------------------------------
-  if (pcl::console::find_argument (argc, argv, "-h") >= 0)
+  if (pcl::console::find_argument(argc, argv, "-h") >= 0)
   {
     printUsage (argv[0]);
     return 0;
   }
-  if (pcl::console::find_argument (argc, argv, "-m") >= 0)
+  
+  if (pcl::console::find_argument(argc, argv, "-m") >= 0)
   {
     setUnseenToMaxRange = true;
     cout << "Setting unseen values in range image to maximum range readings.\n";
   }
+  
   if (pcl::console::parse (argc, argv, "-o", rotation_invariant) >= 0)
     cout << "Switching rotation invariant feature version "<< (rotation_invariant ? "on" : "off")<<".\n";
+  
   int tmp_coordinate_frame;
   if (pcl::console::parse (argc, argv, "-c", tmp_coordinate_frame) >= 0)
   {
     coordinate_frame = pcl::RangeImage::CoordinateFrame (tmp_coordinate_frame);
     cout << "Using coordinate frame "<< (int)coordinate_frame<<".\n";
   }
+  
   if (pcl::console::parse (argc, argv, "-s", support_size) >= 0)
     cout << "Setting support size to "<<support_size<<".\n";
+  
   if (pcl::console::parse (argc, argv, "-r", angular_resolution) >= 0)
     cout << "Setting angular resolution to "<<angular_resolution<<"deg.\n";
+  
   angular_resolution = pcl::deg2rad (angular_resolution);
   
   // ------------------------------------------------------------------
@@ -85,6 +90,7 @@ main (int argc, char** argv)
   pcl::PointCloud<pcl::PointWithViewpoint> far_ranges;
   Eigen::Affine3f scene_sensor_pose (Eigen::Affine3f::Identity ());
   std::vector<int> pcd_filename_indices = pcl::console::parse_file_extension_argument (argc, argv, "pcd");
+  
   if (!pcd_filename_indices.empty ())
   {
     std::string filename = argv[pcd_filename_indices[0]];
@@ -94,6 +100,7 @@ main (int argc, char** argv)
       printUsage (argv[0]);
       return 0;
     }
+    
     scene_sensor_pose = Eigen::Affine3f (Eigen::Translation3f (point_cloud.sensor_origin_[0],
                                                                point_cloud.sensor_origin_[1],
                                                                point_cloud.sensor_origin_[2])) *
@@ -110,7 +117,10 @@ main (int argc, char** argv)
     {
       for (float y=-0.5f; y<=0.5f; y+=0.01f)
       {
-        PointType point;  point.x = x;  point.y = y;  point.z = 2.0f - y;
+        PointType point;  
+        point.x = x;  
+        point.y = y;  
+        point.z = 2.0f - y;
         point_cloud.points.push_back (point);
       }
     }
@@ -124,7 +134,7 @@ main (int argc, char** argv)
   float min_range = 0.0f;
   int border_size = 1;
   boost::shared_ptr<pcl::RangeImage> range_image_ptr (new pcl::RangeImage);
-  pcl::RangeImage& range_image = *range_image_ptr;   
+  pcl::RangeImage& range_image = *range_image_ptr;
   range_image.createFromPointCloud (point_cloud, angular_resolution, pcl::deg2rad (360.0f), pcl::deg2rad (180.0f),
                                    scene_sensor_pose, coordinate_frame, noise_level, min_range, border_size);
   range_image.integrateFarRanges (far_ranges);
@@ -157,7 +167,7 @@ main (int argc, char** argv)
   pcl::RangeImageBorderExtractor range_image_border_extractor;
   pcl::NarfKeypoint narf_keypoint_detector;
   narf_keypoint_detector.setRangeImageBorderExtractor (&range_image_border_extractor);
-  narf_keypoint_detector.setRangeImage (&range_image);
+  narf_keypoint_detector.setRangeImage (&range_image);	
   narf_keypoint_detector.getParameters ().support_size = support_size;
   
   pcl::PointCloud<int> keypoint_indices;

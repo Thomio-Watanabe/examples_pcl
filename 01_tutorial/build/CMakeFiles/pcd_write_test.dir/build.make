@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomio/codes/pcl/tutorial_01
+CMAKE_SOURCE_DIR = /home/thomio/codes/pcl/01_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomio/codes/pcl/tutorial_01/build
+CMAKE_BINARY_DIR = /home/thomio/codes/pcl/01_tutorial/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pcd_write_test.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/pcd_write_test.dir/flags.make
 
 CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o: CMakeFiles/pcd_write_test.dir/flags.make
 CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o: ../pcd_write.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/tutorial_01/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/01_tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o -c /home/thomio/codes/pcl/tutorial_01/pcd_write.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o -c /home/thomio/codes/pcl/01_tutorial/pcd_write.cpp
 
 CMakeFiles/pcd_write_test.dir/pcd_write.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcd_write_test.dir/pcd_write.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomio/codes/pcl/tutorial_01/pcd_write.cpp > CMakeFiles/pcd_write_test.dir/pcd_write.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomio/codes/pcl/01_tutorial/pcd_write.cpp > CMakeFiles/pcd_write_test.dir/pcd_write.cpp.i
 
 CMakeFiles/pcd_write_test.dir/pcd_write.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcd_write_test.dir/pcd_write.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomio/codes/pcl/tutorial_01/pcd_write.cpp -o CMakeFiles/pcd_write_test.dir/pcd_write.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomio/codes/pcl/01_tutorial/pcd_write.cpp -o CMakeFiles/pcd_write_test.dir/pcd_write.cpp.s
 
 CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o.requires:
 .PHONY : CMakeFiles/pcd_write_test.dir/pcd_write.cpp.o.requires
@@ -144,6 +144,6 @@ CMakeFiles/pcd_write_test.dir/clean:
 .PHONY : CMakeFiles/pcd_write_test.dir/clean
 
 CMakeFiles/pcd_write_test.dir/depend:
-	cd /home/thomio/codes/pcl/tutorial_01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomio/codes/pcl/tutorial_01 /home/thomio/codes/pcl/tutorial_01 /home/thomio/codes/pcl/tutorial_01/build /home/thomio/codes/pcl/tutorial_01/build /home/thomio/codes/pcl/tutorial_01/build/CMakeFiles/pcd_write_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomio/codes/pcl/01_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomio/codes/pcl/01_tutorial /home/thomio/codes/pcl/01_tutorial /home/thomio/codes/pcl/01_tutorial/build /home/thomio/codes/pcl/01_tutorial/build /home/thomio/codes/pcl/01_tutorial/build/CMakeFiles/pcd_write_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pcd_write_test.dir/depend
 

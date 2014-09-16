@@ -16,7 +16,7 @@ int main(void)
 	
 	
 	// load point cloud
-	pcl::io::loadPCDFile("../datasets/pclib.pcd",*cloud);
+	pcl::io::loadPCDFile("../datasets/table_scene_mug_stereo_textured.pcd",*cloud);
 		
 	
 	
@@ -26,8 +26,8 @@ int main(void)
 	ne.setInputCloud(cloud);
 	// Create an empty kdtree representation, and pass it to the normal estimation object
 	// Its content will be filled inside the object, based on the given input dataset ( as no other search surface is given).
-	pcl::search::KdTree<pcl::PointXYZ>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZ> ());
-	ne.setSearchMethod(tree);
+	pcl::search::KdTree<pcl::PointXYZ>::Ptr tree1(new pcl::search::KdTree<pcl::PointXYZ> ());
+	ne.setSearchMethod(tree1);
 	// Use all neighbors in a sphere of radius 3cm
 	ne.setRadiusSearch(0.03);
 	// Compute the features
@@ -58,6 +58,17 @@ int main(void)
 	// Use all neighbors in a sphere of radius 5cm
 	// IMPORTANT: the radius used here has to be larger than the radius used to estimate the surface normals!!!
 	pfh.setRadiusSearch(0.05);
+
+
+	for(int i = 0; i < normals->points.size() ; i++)
+	{
+		if(!pcl::isFinite<pcl::Normal>(normals->points[i]))	
+		{
+			PCL_WARN("normals[%d] is not finite \n",i);
+		}
+	}
+
+
 	
 	// Compute the features
 	pfh.compute(*pfhs);

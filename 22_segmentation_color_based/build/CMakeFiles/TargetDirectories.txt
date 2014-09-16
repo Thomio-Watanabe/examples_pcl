@@ -1,0 +1,1 @@
+/home/thomio/codes/pcl/22_segmentation_color_based/build/CMakeFiles/color_based.dir

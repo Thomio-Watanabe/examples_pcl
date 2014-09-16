@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomio/codes/pcl/04_pcl_tutorial_3D_features
+CMAKE_SOURCE_DIR = /home/thomio/codes/pcl/03_3D_features
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build
+CMAKE_BINARY_DIR = /home/thomio/codes/pcl/03_3D_features/bluid
 
 # Include any dependencies generated for this target.
 include CMakeFiles/3d_features.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/3d_features.dir/flags.make
 
 CMakeFiles/3d_features.dir/3d_features.cpp.o: CMakeFiles/3d_features.dir/flags.make
 CMakeFiles/3d_features.dir/3d_features.cpp.o: ../3d_features.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/03_3D_features/bluid/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/3d_features.dir/3d_features.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/3d_features.dir/3d_features.cpp.o -c /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/3d_features.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/3d_features.dir/3d_features.cpp.o -c /home/thomio/codes/pcl/03_3D_features/3d_features.cpp
 
 CMakeFiles/3d_features.dir/3d_features.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3d_features.dir/3d_features.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/3d_features.cpp > CMakeFiles/3d_features.dir/3d_features.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomio/codes/pcl/03_3D_features/3d_features.cpp > CMakeFiles/3d_features.dir/3d_features.cpp.i
 
 CMakeFiles/3d_features.dir/3d_features.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3d_features.dir/3d_features.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/3d_features.cpp -o CMakeFiles/3d_features.dir/3d_features.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomio/codes/pcl/03_3D_features/3d_features.cpp -o CMakeFiles/3d_features.dir/3d_features.cpp.s
 
 CMakeFiles/3d_features.dir/3d_features.cpp.o.requires:
 .PHONY : CMakeFiles/3d_features.dir/3d_features.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/3d_features.dir/3d_features.cpp.o.provides.build: CMakeFiles/3d_featu
 
 CMakeFiles/3d_features.dir/check_input.cpp.o: CMakeFiles/3d_features.dir/flags.make
 CMakeFiles/3d_features.dir/check_input.cpp.o: ../check_input.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomio/codes/pcl/03_3D_features/bluid/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/3d_features.dir/check_input.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/3d_features.dir/check_input.cpp.o -c /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/check_input.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/3d_features.dir/check_input.cpp.o -c /home/thomio/codes/pcl/03_3D_features/check_input.cpp
 
 CMakeFiles/3d_features.dir/check_input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3d_features.dir/check_input.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/check_input.cpp > CMakeFiles/3d_features.dir/check_input.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomio/codes/pcl/03_3D_features/check_input.cpp > CMakeFiles/3d_features.dir/check_input.cpp.i
 
 CMakeFiles/3d_features.dir/check_input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3d_features.dir/check_input.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/check_input.cpp -o CMakeFiles/3d_features.dir/check_input.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomio/codes/pcl/03_3D_features/check_input.cpp -o CMakeFiles/3d_features.dir/check_input.cpp.s
 
 CMakeFiles/3d_features.dir/check_input.cpp.o.requires:
 .PHONY : CMakeFiles/3d_features.dir/check_input.cpp.o.requires
@@ -200,6 +200,6 @@ CMakeFiles/3d_features.dir/clean:
 .PHONY : CMakeFiles/3d_features.dir/clean
 
 CMakeFiles/3d_features.dir/depend:
-	cd /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomio/codes/pcl/04_pcl_tutorial_3D_features /home/thomio/codes/pcl/04_pcl_tutorial_3D_features /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build /home/thomio/codes/pcl/04_pcl_tutorial_3D_features/build/CMakeFiles/3d_features.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomio/codes/pcl/03_3D_features/bluid && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomio/codes/pcl/03_3D_features /home/thomio/codes/pcl/03_3D_features /home/thomio/codes/pcl/03_3D_features/bluid /home/thomio/codes/pcl/03_3D_features/bluid /home/thomio/codes/pcl/03_3D_features/bluid/CMakeFiles/3d_features.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/3d_features.dir/depend
 
