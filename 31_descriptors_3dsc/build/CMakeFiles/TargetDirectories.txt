@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/31_descriptors_3dsc/build/CMakeFiles/descriptors_sc3d.dir

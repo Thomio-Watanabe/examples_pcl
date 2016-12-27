@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/18_projecting_points/build/CMakeFiles/projecting_points.dir

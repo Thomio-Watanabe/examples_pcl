@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/34_descriptors_spin/build/CMakeFiles/descriptors_si.dir

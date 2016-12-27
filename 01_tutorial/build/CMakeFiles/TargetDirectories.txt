@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/01_tutorial/build/CMakeFiles/pcd_write_test.dir

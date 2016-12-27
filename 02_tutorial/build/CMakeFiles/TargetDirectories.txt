@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/02_tutorial/build/CMakeFiles/pcl_visualizer.dir

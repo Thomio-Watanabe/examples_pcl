@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/27_segmentation_convex_hull/build/CMakeFiles/concave_hull.dir

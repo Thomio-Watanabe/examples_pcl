@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/08_kinect_features/build/CMakeFiles/kinect_features.dir

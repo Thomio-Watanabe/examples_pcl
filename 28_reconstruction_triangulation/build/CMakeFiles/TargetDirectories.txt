@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/28_reconstruction_triangulation/build/CMakeFiles/reconstruction.dir

@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/23_segmentation_min_cut/build/CMakeFiles/min_cut.dir

@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/42_global_descriptors_cvfh/build/CMakeFiles/global_cvfh.dir

@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/pcl_visualization/build/CMakeFiles/point_cloud_visualizer.dir

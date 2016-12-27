@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/14_statistical_outlier_removal/build/CMakeFiles/statistical_outlier_removal.dir

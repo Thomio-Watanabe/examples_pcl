@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/15_surface_smoothing/build/CMakeFiles/smoothed_cloud.dir

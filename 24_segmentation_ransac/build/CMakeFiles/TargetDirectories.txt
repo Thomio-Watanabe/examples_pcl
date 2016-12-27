@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/24_segmentation_RANSAC/build/CMakeFiles/ransac.dir

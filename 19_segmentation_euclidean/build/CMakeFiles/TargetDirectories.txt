@@ -1,1 +1,0 @@
-/home/thomio/codes/pcl/19_segmentation_euclidean/build/CMakeFiles/segmentation_euclidean.dir
